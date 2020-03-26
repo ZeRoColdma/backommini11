@@ -1,0 +1,46 @@
+Arguments: 
+  /home/carlos/.nvm/versions/node/v12.14.1/bin/node /usr/bin/yarn add express
+
+PATH: 
+  /home/carlos/.nvm/versions/node/v12.14.1/bin:/home/carlos/.zplugin/polaris/bin:/home/carlos/.local/bin:/home/carlos/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/carlos/development/flutter/bin:/home/carlos/anaconda3/bin/:/home/carlos/Android/Sdk/tools:/home/carlos/Android/Sdk/platform-tools:/home/carlos/development/flutter/bin:/home/carlos/anaconda3/bin/:/home/carlos/Android/Sdk/tools:/home/carlos/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/carlos/projetosCursos/cursoGoHero/backend/package.json: Unexpected token } in JSON at position 210
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^7.18.2",
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
